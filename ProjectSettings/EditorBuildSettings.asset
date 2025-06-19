@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Title.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/InGame.unity
+    guid: 2eb0a18581ca14d4d88d9db0411390aa
+  - enabled: 1
+    path: Assets/Scenes/MultiLobby.unity
+    guid: 48b8a7a8b6ccd194a9e8128aeb37685b
+  - enabled: 0
+    path: Assets/Scenes/InGameMultiTest/MultiPlayer_SpawnTest.unity
+    guid: 8db36fbb6fb5b3c4f9b3365791814916
+  m_configObjects: {}

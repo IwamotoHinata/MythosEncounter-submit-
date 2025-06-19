@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7201e6afb63bb241ac8b64f7cd95a71, type: 3}
+  m_Name: Charm
+  m_EditorClassIdentifier: 
+  itemID: 6
+  itemName: "\u5FA1\u5B88\u308A"
+  itemSprite: {fileID: 21300000, guid: 23aa9f311b7cb4845a0648df6c184c26, type: 3}
+  price: 200
+  itemInfo: "\u6240\u6301\u3057\u3066\u3044\u308B\u3068SAN\u5024\u6E1B\u5C11\u91CF\u304C\u5E38\u306B\u534A\u6E1B\u3059\u308B"
+  type: 1
+  useMethod: "\u6240\u6301\u3057\u3066\u3044\u308B\u3068\u767A\u52D5\u3059\u308B"
+  isSingleUse: 1
+  prefab: {fileID: 4570247510132778309, guid: 31905bfc70a2ddf409c551bcb6df779e, type: 3}

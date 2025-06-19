@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 994910a74cbb31e428a3679bf8da5495
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - _playerItem: {instanceID: 0}
+  - _playerInsanityManager: {instanceID: 0}
+  - _displayPlayerStatusManager: {instanceID: 0}
+  - _itemEmptySprite: {instanceID: 0}
+  - _staminaGaugeMask: {instanceID: 0}
+  - _staminaGaugeFrontRect: {instanceID: 0}
+  - _staminaGaugeFrontImage: {instanceID: 0}
+  - _staminaGaugeBackGround: {instanceID: 0}
+  - _pop: {instanceID: 0}
+  - _pop_Text: {instanceID: 0}
+  - _castGauge: {instanceID: 0}
+  - _castGaugeImage: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

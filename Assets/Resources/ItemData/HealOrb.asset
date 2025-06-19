@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7201e6afb63bb241ac8b64f7cd95a71, type: 3}
+  m_Name: HealOrb
+  m_EditorClassIdentifier: 
+  itemID: 0
+  itemName: HealOrb
+  itemSprite: {fileID: 21300000, guid: 682032aa739de3440a67c7410f04ec51, type: 3}
+  price: 100
+  itemInfo: "\u56DE\u5FA9\u30A2\u30A4\u30C6\u30E0"
+  type: 1
+  isSingleUse: 1
+  prefab: {fileID: 2298579920117932612, guid: 6f9b1ceb957ddf84180c6db53f917a72, type: 3}
