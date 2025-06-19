@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7201e6afb63bb241ac8b64f7cd95a71, type: 3}
+  m_Name: MagicWhistle
+  m_EditorClassIdentifier: 
+  itemID: 18
+  itemName: MagicWhistle
+  itemSprite: {fileID: 21300000, guid: 5f9cd8597c052044cb775dfb1185820d, type: 3}
+  price: 250
+  itemInfo: "\u4F7F\u7528\u3059\u308B\u3053\u3068\u3067\u3001\u30E9\u30F3\u30C0\u30E0\u306A\u4F4D\u7F6E\u306B\u8EE2\u79FB\u3059\u308B\u3053\u3068\u304C\u3067\u304D\u308B"
+  type: 1
+  isSingleUse: 1
+  prefab: {fileID: 4570247510132778309, guid: 69edb1d1d9c94684e9f70766db0738e3, type: 3}

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7201e6afb63bb241ac8b64f7cd95a71, type: 3}
+  m_Name: Tantacle
+  m_EditorClassIdentifier: 
+  itemID: 17
+  itemName: "\u89E6\u624B"
+  itemSprite: {fileID: 21300000, guid: fc8e35056b4882e49b4e31f357963b49, type: 3}
+  price: 250
+  itemInfo: "SAN\u5024\u3092\u6E1B\u5C11\u3055\u305B\u306A\u304C\u3089\u5F37\u529B\u306A\u529B\u3092\u5F97\u308B"
+  type: 1
+  useMethod: "\u5DE6\u30AF\u30EA\u30C3\u30AF\u3067\u4F7F\u7528\u3059\u308B"
+  isSingleUse: 0
+  prefab: {fileID: 3356984425975218463, guid: abbc20ee169cf344da7407e794c6b81b, type: 3}

@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &121079754144678996
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1100379264400096663}
+  - component: {fileID: 6276747018306845529}
+  m_Layer: 0
+  m_Name: ItemGenerator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1100379264400096663
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 121079754144678996}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 91.004364, y: 9.530523, z: 70.45317}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6276747018306845529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 121079754144678996}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfd61abfec9a94f46a130b0f478dba24, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _escapeItemCount: 5
+  _stageItemCount: 20
+  _stageItemPrefab:
+  - {fileID: 4570247510132778309, guid: aee2d85a02b82534598bb8aca49bf407, type: 3}
+  - {fileID: 4570247510132778309, guid: f9758bb809c86794c9f5f7c72ca5e703, type: 3}
+  - {fileID: 4570247510132778309, guid: 31905bfc70a2ddf409c551bcb6df779e, type: 3}
+  - {fileID: 4570247510132778309, guid: 179b029440dd2154cb7c786baab810a4, type: 3}
+  - {fileID: 4570247510132778309, guid: ab67a0a3e18354c4d95587b785f10572, type: 3}
+  - {fileID: 4570247510132778309, guid: df7d0d203c95c9a4b9efa2b426e565e8, type: 3}
+  - {fileID: 4570247510132778309, guid: 0008be7d88cf4624699394f365afd844, type: 3}
+  - {fileID: 4570247510132778309, guid: 6d7e0bec780684244ac7d92c2309699a, type: 3}
+  - {fileID: 4570247510132778309, guid: 3407a59925522614baac081df3ac9efc, type: 3}
+  - {fileID: 4570247510132778309, guid: fc9c04bd587a12d4f96c43cae2be6760, type: 3}
+  _escapeItemPrefab: {fileID: 1949379199197260525, guid: 1138eb2a82e55ec48aada3998ffcf7d2, type: 3}
+  _escapePointPrefab: {fileID: 62901747889602305, guid: 585ca18ea7e82a64490e201b2b2e3eea, type: 3}

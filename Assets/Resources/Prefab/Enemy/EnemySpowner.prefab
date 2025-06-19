@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2356478341575929910
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7736650679182576676}
+  - component: {fileID: 1614493044594472170}
+  - component: {fileID: 6647799633242644205}
+  m_Layer: 0
+  m_Name: EnemySpowner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &7736650679182576676
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2356478341575929910}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -19.8}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1614493044594472170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2356478341575929910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3495d4e27afa60438173cb613954761, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _debugMode: 0
+  _nonInGameManagerMode: 0
+  _raffle: 1
+  _enemyName: 1
+  _gamePhase: 0
+  _enemyVisibilityMap: {fileID: 0}
+  _x: 13
+  _y: 2
+  _z: 13
+  _range: 5.85
+  _maxVisiviilityRange: 50
+  _centerPosition: {x: -0.5, y: 1, z: -0.5}
+  _testEnemy: {fileID: 9201936745783884321, guid: 5ef73dada9987014a9a5feb985e5f79f, type: 3}
+  _deepOnes: {fileID: 6990575043391720951, guid: e6d24b3c74905f547ad444af061ed259, type: 3}
+  _spawnOfCthulhu: {fileID: 1502827998043956805, guid: 12d632861ee534348b7a8114133b23d5, type: 3}
+  _Dagon: {fileID: 6903888453008488111, guid: 91b15211ac62e394b85215c03a95ad7f, type: 3}
+  _miGo: {fileID: 2083930819845757192, guid: 1934123d9afe937408275cbfb70cb0bf, type: 3}
+  _rhanTegoth: {fileID: 1623096809574788622, guid: adac10c311fd79144bc61aa2654491f3, type: 3}
+  _subNiggurath: {fileID: 5603801007587313664, guid: 104302a545db1e349b3c19f12a3cefca, type: 3}
+  _hasture: {fileID: 3783297036312197255, guid: a41be80ecb4180e439c1f583bcddf775, type: 3}
+  _enemySpawnPosition: {x: 0, y: 0, z: 0}
+  _playerSpawner: {fileID: 0}
+--- !u!114 &6647799633242644205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2356478341575929910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1552182283, guid: e725a070cec140c4caffb81624c8c787, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SortKey: 2481771831
+  ObjectInterest: 1
+  Flags: 262145
+  NestedObjects: []
+  NetworkedBehaviours:
+  - {fileID: 1614493044594472170}

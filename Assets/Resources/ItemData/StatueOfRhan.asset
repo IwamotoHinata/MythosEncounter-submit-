@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7201e6afb63bb241ac8b64f7cd95a71, type: 3}
+  m_Name: StatueOfRhan
+  m_EditorClassIdentifier: 
+  itemID: 23
+  itemName: StatueOfRhan
+  itemSprite: {fileID: 21300000, guid: b88d4d1a98c6a8047977534ad96b73d2, type: 3}
+  price: 0
+  itemInfo: "SAN\u5024\u3092\u5F15\u304D\u63DB\u3048\u306B\u3001HP\u3092\u56DE\u5FA9\u3059\u308B\u3002"
+  type: 1
+  isSingleUse: 1
+  prefab: {fileID: 4570247510132778309, guid: fbde48fe4f32a974f9dac887558859ef, type: 3}
