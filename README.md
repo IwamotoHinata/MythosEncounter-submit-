@@ -1,3 +1,7 @@
+# プレイ映像
+
+https://drive.google.com/file/d/1JUOuKwoX9TPVzHho3RBhHyGtEhONbZeC/view?usp=drive_link
+
 # Mythos-Encouner使用アセット
 
 
